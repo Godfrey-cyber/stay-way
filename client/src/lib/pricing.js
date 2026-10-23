@@ -25,4 +25,4 @@ export function validateGuests({ adults, children }) {
 }
 
 export const slugify = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
-export const money = (n) => `$${Number(n).toLocaleString()}`;
+export const money = (n) => `Ksh.${Number(n).toLocaleString()}`;
